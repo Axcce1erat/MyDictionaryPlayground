@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		657DB7D72624820C00DC44CC /* AppSignerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB7D62624820C00DC44CC /* AppSignerApp.swift */; };
+		657DB7D92624820C00DC44CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB7D82624820C00DC44CC /* ContentView.swift */; };
+		657DB7DB2624820D00DC44CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657DB7DA2624820D00DC44CC /* Assets.xcassets */; };
+		657DB7DE2624820D00DC44CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657DB7DD2624820D00DC44CC /* Preview Assets.xcassets */; };
+		657DB7EA2624820D00DC44CC /* AppSignerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB7E92624820D00DC44CC /* AppSignerTests.swift */; };
+		657DB7F52624820E00DC44CC /* AppSignerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB7F42624820D00DC44CC /* AppSignerUITests.swift */; };
+		657DB8362624846800DC44CC /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB8352624846800DC44CC /* FileHandler.swift */; };
+		657DB8372624846800DC44CC /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB8352624846800DC44CC /* FileHandler.swift */; };
+		657DB8382624846800DC44CC /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB8352624846800DC44CC /* FileHandler.swift */; };
+		657DB8402624847B00DC44CC /* Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB83F2624847B00DC44CC /* Preparation.swift */; };
+		657DB8412624847B00DC44CC /* Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB83F2624847B00DC44CC /* Preparation.swift */; };
+		657DB8422624847B00DC44CC /* Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB83F2624847B00DC44CC /* Preparation.swift */; };
+		657DB84A2624849400DC44CC /* apkSignerDtagXcode.sh in Resources */ = {isa = PBXBuildFile; fileRef = 657DB8492624849400DC44CC /* apkSignerDtagXcode.sh */; };
+		657DB84B2624849400DC44CC /* apkSignerDtagXcode.sh in Resources */ = {isa = PBXBuildFile; fileRef = 657DB8492624849400DC44CC /* apkSignerDtagXcode.sh */; };
+		657DB84C2624849400DC44CC /* apkSignerDtagXcode.sh in Resources */ = {isa = PBXBuildFile; fileRef = 657DB8492624849400DC44CC /* apkSignerDtagXcode.sh */; };
+		657DB8542624849C00DC44CC /* readingAndroidManifest.sh in Resources */ = {isa = PBXBuildFile; fileRef = 657DB8532624849C00DC44CC /* readingAndroidManifest.sh */; };
+		657DB8552624849C00DC44CC /* readingAndroidManifest.sh in Resources */ = {isa = PBXBuildFile; fileRef = 657DB8532624849C00DC44CC /* readingAndroidManifest.sh */; };
+		657DB8562624849C00DC44CC /* readingAndroidManifest.sh in Resources */ = {isa = PBXBuildFile; fileRef = 657DB8532624849C00DC44CC /* readingAndroidManifest.sh */; };
+		657DB85F262484DA00DC44CC /* SwiftShell in Frameworks */ = {isa = PBXBuildFile; productRef = 657DB85E262484DA00DC44CC /* SwiftShell */; };
+		657DB8712624995D00DC44CC /* CoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB8702624995D00DC44CC /* CoreHandler.swift */; };
+		657DB8722624995D00DC44CC /* CoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB8702624995D00DC44CC /* CoreHandler.swift */; };
+		657DB8732624995D00DC44CC /* CoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DB8702624995D00DC44CC /* CoreHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		657DB7E62624820D00DC44CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657DB7CB2624820C00DC44CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657DB7D22624820C00DC44CC;
+			remoteInfo = AppSigner;
+		};
+		657DB7F12624820D00DC44CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657DB7CB2624820C00DC44CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657DB7D22624820C00DC44CC;
+			remoteInfo = AppSigner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		657DB7D32624820C00DC44CC /* AppSigner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		657DB7D62624820C00DC44CC /* AppSignerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSignerApp.swift; sourceTree = "<group>"; };
+		657DB7D82624820C00DC44CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		657DB7DA2624820D00DC44CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		657DB7DD2624820D00DC44CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		657DB7DF2624820D00DC44CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657DB7E02624820D00DC44CC /* AppSigner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppSigner.entitlements; sourceTree = "<group>"; };
+		657DB7E52624820D00DC44CC /* AppSignerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSignerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		657DB7E92624820D00DC44CC /* AppSignerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSignerTests.swift; sourceTree = "<group>"; };
+		657DB7EB2624820D00DC44CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657DB7F02624820D00DC44CC /* AppSignerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSignerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		657DB7F42624820D00DC44CC /* AppSignerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSignerUITests.swift; sourceTree = "<group>"; };
+		657DB7F62624820E00DC44CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657DB8352624846800DC44CC /* FileHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHandler.swift; sourceTree = "<group>"; };
+		657DB83F2624847B00DC44CC /* Preparation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preparation.swift; sourceTree = "<group>"; };
+		657DB8492624849400DC44CC /* apkSignerDtagXcode.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = apkSignerDtagXcode.sh; sourceTree = "<group>"; };
+		657DB8532624849C00DC44CC /* readingAndroidManifest.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = readingAndroidManifest.sh; sourceTree = "<group>"; };
+		657DB8702624995D00DC44CC /* CoreHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657DB7D02624820C00DC44CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657DB85F262484DA00DC44CC /* SwiftShell in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657DB7E22624820D00DC44CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657DB7ED2624820D00DC44CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		657DB7CA2624820C00DC44CC = {
+			isa = PBXGroup;
+			children = (
+				657DB7D52624820C00DC44CC /* AppSigner */,
+				657DB7E82624820D00DC44CC /* AppSignerTests */,
+				657DB7F32624820D00DC44CC /* AppSignerUITests */,
+				657DB7D42624820C00DC44CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		657DB7D42624820C00DC44CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657DB7D32624820C00DC44CC /* AppSigner.app */,
+				657DB7E52624820D00DC44CC /* AppSignerTests.xctest */,
+				657DB7F02624820D00DC44CC /* AppSignerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657DB7D52624820C00DC44CC /* AppSigner */ = {
+			isa = PBXGroup;
+			children = (
+				657DB7D62624820C00DC44CC /* AppSignerApp.swift */,
+				657DB7D82624820C00DC44CC /* ContentView.swift */,
+				657DB8702624995D00DC44CC /* CoreHandler.swift */,
+				657DB83F2624847B00DC44CC /* Preparation.swift */,
+				657DB8352624846800DC44CC /* FileHandler.swift */,
+				657DB8492624849400DC44CC /* apkSignerDtagXcode.sh */,
+				657DB8532624849C00DC44CC /* readingAndroidManifest.sh */,
+				657DB7DA2624820D00DC44CC /* Assets.xcassets */,
+				657DB7DF2624820D00DC44CC /* Info.plist */,
+				657DB7E02624820D00DC44CC /* AppSigner.entitlements */,
+				657DB7DC2624820D00DC44CC /* Preview Content */,
+			);
+			path = AppSigner;
+			sourceTree = "<group>";
+		};
+		657DB7DC2624820D00DC44CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				657DB7DD2624820D00DC44CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		657DB7E82624820D00DC44CC /* AppSignerTests */ = {
+			isa = PBXGroup;
+			children = (
+				657DB7E92624820D00DC44CC /* AppSignerTests.swift */,
+				657DB7EB2624820D00DC44CC /* Info.plist */,
+			);
+			path = AppSignerTests;
+			sourceTree = "<group>";
+		};
+		657DB7F32624820D00DC44CC /* AppSignerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				657DB7F42624820D00DC44CC /* AppSignerUITests.swift */,
+				657DB7F62624820E00DC44CC /* Info.plist */,
+			);
+			path = AppSignerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		657DB7D22624820C00DC44CC /* AppSigner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657DB7F92624820E00DC44CC /* Build configuration list for PBXNativeTarget "AppSigner" */;
+			buildPhases = (
+				657DB7CF2624820C00DC44CC /* Sources */,
+				657DB7D02624820C00DC44CC /* Frameworks */,
+				657DB7D12624820C00DC44CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppSigner;
+			packageProductDependencies = (
+				657DB85E262484DA00DC44CC /* SwiftShell */,
+			);
+			productName = AppSigner;
+			productReference = 657DB7D32624820C00DC44CC /* AppSigner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		657DB7E42624820D00DC44CC /* AppSignerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657DB7FC2624820E00DC44CC /* Build configuration list for PBXNativeTarget "AppSignerTests" */;
+			buildPhases = (
+				657DB7E12624820D00DC44CC /* Sources */,
+				657DB7E22624820D00DC44CC /* Frameworks */,
+				657DB7E32624820D00DC44CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657DB7E72624820D00DC44CC /* PBXTargetDependency */,
+			);
+			name = AppSignerTests;
+			productName = AppSignerTests;
+			productReference = 657DB7E52624820D00DC44CC /* AppSignerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		657DB7EF2624820D00DC44CC /* AppSignerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657DB7FF2624820E00DC44CC /* Build configuration list for PBXNativeTarget "AppSignerUITests" */;
+			buildPhases = (
+				657DB7EC2624820D00DC44CC /* Sources */,
+				657DB7ED2624820D00DC44CC /* Frameworks */,
+				657DB7EE2624820D00DC44CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657DB7F22624820D00DC44CC /* PBXTargetDependency */,
+			);
+			name = AppSignerUITests;
+			productName = AppSignerUITests;
+			productReference = 657DB7F02624820D00DC44CC /* AppSignerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657DB7CB2624820C00DC44CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					657DB7D22624820C00DC44CC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					657DB7E42624820D00DC44CC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 657DB7D22624820C00DC44CC;
+					};
+					657DB7EF2624820D00DC44CC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 657DB7D22624820C00DC44CC;
+					};
+				};
+			};
+			buildConfigurationList = 657DB7CE2624820C00DC44CC /* Build configuration list for PBXProject "AppSigner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 657DB7CA2624820C00DC44CC;
+			packageReferences = (
+				657DB85D262484DA00DC44CC /* XCRemoteSwiftPackageReference "SwiftShell" */,
+			);
+			productRefGroup = 657DB7D42624820C00DC44CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657DB7D22624820C00DC44CC /* AppSigner */,
+				657DB7E42624820D00DC44CC /* AppSignerTests */,
+				657DB7EF2624820D00DC44CC /* AppSignerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		657DB7D12624820C00DC44CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657DB8542624849C00DC44CC /* readingAndroidManifest.sh in Resources */,
+				657DB7DE2624820D00DC44CC /* Preview Assets.xcassets in Resources */,
+				657DB7DB2624820D00DC44CC /* Assets.xcassets in Resources */,
+				657DB84A2624849400DC44CC /* apkSignerDtagXcode.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657DB7E32624820D00DC44CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657DB8552624849C00DC44CC /* readingAndroidManifest.sh in Resources */,
+				657DB84B2624849400DC44CC /* apkSignerDtagXcode.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657DB7EE2624820D00DC44CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657DB8562624849C00DC44CC /* readingAndroidManifest.sh in Resources */,
+				657DB84C2624849400DC44CC /* apkSignerDtagXcode.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657DB7CF2624820C00DC44CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657DB8362624846800DC44CC /* FileHandler.swift in Sources */,
+				657DB8712624995D00DC44CC /* CoreHandler.swift in Sources */,
+				657DB8402624847B00DC44CC /* Preparation.swift in Sources */,
+				657DB7D92624820C00DC44CC /* ContentView.swift in Sources */,
+				657DB7D72624820C00DC44CC /* AppSignerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657DB7E12624820D00DC44CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657DB8372624846800DC44CC /* FileHandler.swift in Sources */,
+				657DB7EA2624820D00DC44CC /* AppSignerTests.swift in Sources */,
+				657DB8722624995D00DC44CC /* CoreHandler.swift in Sources */,
+				657DB8412624847B00DC44CC /* Preparation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657DB7EC2624820D00DC44CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657DB8382624846800DC44CC /* FileHandler.swift in Sources */,
+				657DB7F52624820E00DC44CC /* AppSignerUITests.swift in Sources */,
+				657DB8732624995D00DC44CC /* CoreHandler.swift in Sources */,
+				657DB8422624847B00DC44CC /* Preparation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		657DB7E72624820D00DC44CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657DB7D22624820C00DC44CC /* AppSigner */;
+			targetProxy = 657DB7E62624820D00DC44CC /* PBXContainerItemProxy */;
+		};
+		657DB7F22624820D00DC44CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657DB7D22624820C00DC44CC /* AppSigner */;
+			targetProxy = 657DB7F12624820D00DC44CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		657DB7F72624820E00DC44CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		657DB7F82624820E00DC44CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		657DB7FA2624820E00DC44CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppSigner/AppSigner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AppSigner/Preview Content\"";
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AppSigner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Deutsche-Telekom-AG.IHUB.AppSigner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		657DB7FB2624820E00DC44CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppSigner/AppSigner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AppSigner/Preview Content\"";
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AppSigner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Deutsche-Telekom-AG.IHUB.AppSigner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		657DB7FD2624820E00DC44CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				INFOPLIST_FILE = AppSignerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Deutsche-Telekom-AG.IHUB.AppSignerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppSigner.app/Contents/MacOS/AppSigner";
+			};
+			name = Debug;
+		};
+		657DB7FE2624820E00DC44CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				INFOPLIST_FILE = AppSignerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Deutsche-Telekom-AG.IHUB.AppSignerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppSigner.app/Contents/MacOS/AppSigner";
+			};
+			name = Release;
+		};
+		657DB8002624820E00DC44CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				INFOPLIST_FILE = AppSignerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Deutsche-Telekom-AG.IHUB.AppSignerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AppSigner;
+			};
+			name = Debug;
+		};
+		657DB8012624820E00DC44CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				INFOPLIST_FILE = AppSignerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Deutsche-Telekom-AG.IHUB.AppSignerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AppSigner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657DB7CE2624820C00DC44CC /* Build configuration list for PBXProject "AppSigner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657DB7F72624820E00DC44CC /* Debug */,
+				657DB7F82624820E00DC44CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657DB7F92624820E00DC44CC /* Build configuration list for PBXNativeTarget "AppSigner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657DB7FA2624820E00DC44CC /* Debug */,
+				657DB7FB2624820E00DC44CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657DB7FC2624820E00DC44CC /* Build configuration list for PBXNativeTarget "AppSignerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657DB7FD2624820E00DC44CC /* Debug */,
+				657DB7FE2624820E00DC44CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657DB7FF2624820E00DC44CC /* Build configuration list for PBXNativeTarget "AppSignerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657DB8002624820E00DC44CC /* Debug */,
+				657DB8012624820E00DC44CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		657DB85D262484DA00DC44CC /* XCRemoteSwiftPackageReference "SwiftShell" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kareman/SwiftShell";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		657DB85E262484DA00DC44CC /* SwiftShell */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 657DB85D262484DA00DC44CC /* XCRemoteSwiftPackageReference "SwiftShell" */;
+			productName = SwiftShell;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 657DB7CB2624820C00DC44CC /* Project object */;
+}
